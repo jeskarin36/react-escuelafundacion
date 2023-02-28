@@ -1,0 +1,208 @@
+.app__header{
+    width: 100%;
+    height:134vh;
+}
+
+
+.app__header-container-top{
+    width: 100%;
+    height: 60%;
+    background-image:linear-gradient(
+        to right,
+        rgba(72, 72, 72, 0.4),
+        rgba(75, 75, 75, 0.4)
+       ),  url("../../assets/photo-1542810634-71277d95dcbb.avif");
+    background-size:100% 120%;
+    background-position: bottom;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.app__header-container-top-title{
+    width: 75%;
+    min-height: 30%;
+    margin-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 0 ;
+}
+
+.app__header-container-top-title h3{
+    font-size: 65px;
+    color: white;
+    font-family: var(--font-san);
+    font-weight: 500;
+    line-height: 84px;
+}
+
+
+.app__header-container-bottom{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.app__header-container-bottom-letf{
+    width: 40%;
+    height:65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+.app__header-container-bottom-letf >div{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 50px;
+   padding-top:4em ;
+ 
+}
+
+.app__header-container-bottom-letf h3{
+    color: rgb(0, 0, 0);
+    font-size: 41px;
+    font-family: var(--font-san);
+    font-weight: 500;
+    line-height: 61px;
+}
+
+.app__header-container-bottom-letf button{
+    width:15em;
+    height: 4em;
+    background: rgb(144, 102, 69);
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-family: var(--font-robot);
+    font-weight: bold;
+}
+
+.app__header-container-bottom-right{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+ 
+}
+
+
+
+.app__header-container-bottom-right >div{
+    width: 60%;
+    height:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: var(--font-robot);
+    font-weight: 300;
+    line-height: 30px;
+    padding-top:3.5em ;
+}
+
+
+
+@media screen and (max-width:991px) {
+
+    .app__header-container-top-title h3{
+        font-size: 46px;
+        color: white;
+        font-family: var(--font-san);
+        font-weight: 500;
+        line-height: 56px;
+    }
+  }
+
+  @media screen and (max-width: 1149px) {
+
+    .app__header-container-bottom-letf{
+        height: 80%;
+     
+    }
+
+    .app__header-container-bottom{
+        height: 50%;
+    }
+  }
+
+  @media screen and (max-width:857px) {
+
+    .app__header-container-bottom{
+        flex-direction: column;
+     
+      
+    }
+    .app__header-container-bottom-letf{
+        width: 90%;
+        height: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+    .app__header-container-bottom-letf div{
+        width: 80%;
+      
+    }
+
+     .app__header-container-bottom-right{
+        width: 100%;
+        height: 60%;
+    }
+    .app__header-container-bottom-right div{
+        width: 80%;
+    }
+    .app__header{
+        
+        height: 180vh;
+        
+    }
+    .app__header-container-top{
+        height: 50%;
+    }
+  }
+
+
+
+  @media screen and (max-width:525px) {
+    .app__header-container-top-title h3{
+        font-size: 41px;
+        color: white;
+        font-family: var(--font-san);
+        font-weight: 500;
+        line-height: 51px;
+    }
+
+    .app__header{
+        
+        height: 220vh;
+      
+    }
+    .app__header-container-top{
+        height: 35%;
+    }
+    .app__header-container-bottom{
+        height: 65%;
+    }
+  }
+
+  @media screen and (max-width:431px) {
+
+    .app__header-container-top-title h3{
+        font-size: 30px;
+        color: white;
+        font-family: var(--font-san);
+        font-weight: 500;
+        line-height: 50px;
+    }
+  }

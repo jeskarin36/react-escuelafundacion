@@ -1,0 +1,69 @@
+.app__opinion{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.app__opinion > div{
+    width: 40%;
+    height: 80%;
+    padding: 0 45px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.app__opinion > div h3{
+    font-size: 47px;
+    line-height: 61px;
+    font-weight: 500;
+    font-family: var(--font-san);
+    margin-bottom: 30px;
+}
+
+.app__opinion > div p{
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 300;
+    font-family: var(--font-robot);
+    
+}
+
+@media screen and (max-width:1149px) {
+    .app__opinion{
+        height: 70vh;
+    }
+    .app__opinion > div h3{
+        font-size: 39px;
+        line-height: 51px;
+    }
+}
+
+@media screen and (max-width:849px) {
+    .app__opinion{
+        height: 60vh;
+    }
+    .app__opinion div{
+       width: 80%;
+    }
+    .app__opinion > div h3{
+        font-size: 39px;
+        line-height: 51px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .app__opinion{
+        height: 70vh;
+    }
+    .app__opinion > div h3{
+        font-size: 31px;
+        line-height: 40px;
+    }
+}
+
+

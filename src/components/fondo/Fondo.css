@@ -1,0 +1,7 @@
+.app__fondo{
+    width: 100%;
+    height: 50vh;
+    background-image: url("../../assets/photo-1554721299-e0b8aa7666ce.avif");
+    background-position: center;
+    background-size: cover;
+}

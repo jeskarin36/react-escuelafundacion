@@ -1,0 +1,155 @@
+.app_contenedor{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    color: white;
+    margin: 20px 0;
+}
+
+#app_contenedor-reverse{
+    flex-direction: row-reverse;
+}
+
+.app_contenedor-img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app_contenedor-img >div{
+    width: 90%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.app_contenedor-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.app_contenedor-text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.app_contenedor-text >div{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.app_contenedor-text >div h3{
+    font-size: 30px;
+    font-family: var(--font-san);
+    font-weight: 500;
+    line-height: 38px;
+}
+
+.app_contenedor-text >div p{
+    font-size: 18px;
+    font-family: var(--font-r);
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.app_contenedor-text >div button{
+    width:11em;
+    height: 3.5em;
+    background: rgb(144, 102, 69);
+    border: none;
+    color: white;
+}
+
+
+
+@media screen and (max-width:743px) {
+    .app_contenedor{
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    #app_contenedor-reverse{
+        flex-direction: column;
+    }
+
+    .app_contenedor-img{
+        width: 90%;
+        height: 90%;
+        
+    }
+    .app_contenedor-text{
+        width: 90%;
+        height: 90%;
+       
+    }
+    .app_contenedor-text >div{
+        width: 90%;
+        height: 90%;
+       
+    }
+}
+
+
+@media screen and (max-width:493px) {
+    .app_contenedor-text >div{
+        width: 90%;
+        height: 90%;
+       
+    }
+}
+
+
+@media screen and (max-width:1035px) {
+    .app_contenedor{
+        height: 60vh;
+    }
+}
+
+
+@media screen and (max-width:397px) {
+   
+    .app_contenedor-img{
+        height: 60%;
+        
+    }
+    
+    .app_contenedor-img >div{
+        width: 95%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .app_contenedor-text{
+    
+        height: 70%;
+    }
+
+    
+
+    .app_contenedor-text >div p{
+        font-size: 15px;
+        line-height: 27px;
+    }
+
+    .app_contenedor-text >div h3{
+        font-size: 26px;
+
+        line-height: 35px;
+    }
+}
+

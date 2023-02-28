@@ -1,0 +1,234 @@
+.app__contacto{
+    width: 100%;
+    height:80vh;
+    display: flex;
+    
+}
+
+.app__contacto-letf{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    
+}
+
+.app__contacto-letf > div{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    color: rgb(55, 55, 55);
+    padding: 3.5em 3em;
+    
+}
+
+.app__contacto-letf > div h3{
+    font-size: 49px;
+    line-height: 63px;
+    font-family: var(--font-san);
+    font-weight: 500;
+    color: black;
+
+}
+
+.app__contacto-letf > div > div{
+    color: rgb(55, 55, 55);
+    font-size: 16px;
+    line-height: 28px;
+    font-family: var(--font-robot);
+    font-weight: 300;
+}
+
+.app__contacto-letf > div > div .title{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+
+.app__contacto-right{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.app__contacto-right form{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: gray;
+}
+
+.app__contacto-right form .double{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.app__contacto-right form .corto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    
+}
+
+.app__contacto-right form .largo{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     gap: 0.5em;
+}
+
+.app__contacto-right form .corto input,
+.app__contacto-right form .largo input,
+.app__contacto-right form .largo textarea{
+    padding: 0.5em 1em;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(164, 164, 164);
+    resize: none;
+    font-size: 16px;
+    font-family: var(--font-robot);
+    font-weight: 300;
+}
+
+.app__contacto-right form input[type="submit"]{
+    width:9em;
+    height: 3em;
+    background: rgb(144, 102, 69);
+    border: none;
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1143px) {
+    .app__contacto-letf > div h3{
+        font-size: 41px;
+        line-height: 53px;
+    }
+
+    .app__contacto-letf > div > div{
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .app__contacto-right{
+        align-items: center;
+    }
+
+    .app__contacto-right form{
+        width: 95%;
+  
+    }
+}
+
+
+@media screen and (max-width:1021px) {
+    .app__contacto-right form .corto input{
+        padding: 0.5em .5em;
+    }
+}
+
+
+@media screen and (max-width:943px) {
+    .app__contacto-right form .double{
+        gap: .5em;
+    }
+    .app__contacto-right form .corto input{
+        padding: 0.5em .1em;
+    }
+    .app__contacto-right form{
+        height: 85%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:763px) {
+    .app__contacto{
+        flex-direction: column;
+        justify-content: center;
+        height: 120vh;
+    }
+    .app__contacto-letf{
+        width: 100%;
+        height: 30%;
+  
+    }
+
+
+
+    .app__contacto-right{
+        width: 100%;
+        height:70%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width:397px) {
+    .app__contacto-right form .double{
+        gap: .3em;
+    }
+    .app__contacto-right form .corto input{
+        
+        width: 90%;
+    }
+    .app__contacto-right form{
+        height: 95%;
+    }
+
+    .app__contacto-letf > div h3{
+        font-size: 31px;
+        line-height: 40px;
+    }
+
+    .app__contacto-letf > div > div{
+        font-size: 15px;
+        line-height: 27px;
+
+    }
+    .app__contacto-letf > div{
+        width: 95%;
+        padding: 0;
+        height: 80%;
+        
+    }
+
+    .app__contacto-letf{
+        width: 100%;
+        height: 35%;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .app__contacto-right{
+        height:65%;
+    }
+    
+}

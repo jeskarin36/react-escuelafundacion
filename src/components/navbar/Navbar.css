@@ -1,0 +1,165 @@
+.app__navbar{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+}
+
+.app__navbar-letf{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.app__navbar-letf h3{
+    padding: 0 25px;
+    font-size: 35px;
+    color: white;
+    font-family: var(--font-san);
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 47px;
+}
+
+
+.app__navbar-right{
+    min-width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2em;
+}
+
+
+.app__navbar-right ul{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2em;
+   
+}
+
+.app__navbar-right ul li a{
+    color: white;
+    font-family: var(--font-san);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+
+.app__navbar-right ul li button{
+    width:9em;
+    height: 3.5em;
+    background: rgb(144, 102, 69);
+    border: none;
+    color: white;
+    font-family: var(--font-san);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.app__navbar-menu{
+  margin-left: 1rem;
+  display: none;
+  position: relative;
+}
+
+
+
+.app__navbar-menu_container{
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+  flex-direction: column;
+  text-align: end;
+  padding: 2rem ;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  margin-top: 1rem;
+  width: 100vw;
+  height: 100vh;
+  border-radius: 5px;
+
+}
+
+.app__navbar-menu_container-links{
+  top: 0;
+  right: 0;
+  width: 35%;
+  height: 35%;
+  position: absolute;
+  background: rgb(144, 102, 69);
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+
+  text-align: center;
+}
+
+.app__navbar-menu_container p{
+  padding: 0.6em 3em;
+  margin: 0.1em 0;
+  border: 1px solid rgb(149, 112, 48) ;
+  font-size: 18px;
+    font-family: var(--font-robot);
+    font-weight: 300;
+ 
+}
+
+
+.app__navbar-menu_container p a{
+  color: white;
+}
+
+
+
+@media screen and (max-width:919px) {
+
+  .app__navbar{
+      
+     width: 100vw;
+  }
+    .app__navbar-right-ul li{
+      display: none;
+    }
+    
+    .app__navbar-menu{
+      display: flex;
+      position: absolute;
+      right: 0;
+      margin-right: 20px;
+     
+    }
+}
+
+
