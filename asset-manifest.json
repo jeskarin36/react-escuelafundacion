@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-escuelafundacion/static/css/main.ba7ffa3f.css",
+    "main.js": "/react-escuelafundacion/static/js/main.3bd0ff00.js",
+    "static/media/photo-1490424660416-359912d314b3.avif": "/react-escuelafundacion/static/media/photo-1490424660416-359912d314b3.5699e27190a84dd2c053.avif",
+    "static/media/photo-1542810634-71277d95dcbb.avif": "/react-escuelafundacion/static/media/photo-1542810634-71277d95dcbb.0d834c715753ece82a60.avif",
+    "static/media/photo-1554721299-e0b8aa7666ce.avif": "/react-escuelafundacion/static/media/photo-1554721299-e0b8aa7666ce.df82d539c18e7f164fe8.avif",
+    "static/media/photo-1548102268-3d7dc56b01e1.avif": "/react-escuelafundacion/static/media/photo-1548102268-3d7dc56b01e1.4fbd59012e79f6477ea6.avif",
+    "static/media/photo-1488521787991-ed7bbaae773c.avif": "/react-escuelafundacion/static/media/photo-1488521787991-ed7bbaae773c.a4a52bfd13aa451568fb.avif",
+    "index.html": "/react-escuelafundacion/index.html",
+    "main.ba7ffa3f.css.map": "/react-escuelafundacion/static/css/main.ba7ffa3f.css.map",
+    "main.3bd0ff00.js.map": "/react-escuelafundacion/static/js/main.3bd0ff00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba7ffa3f.css",
+    "static/js/main.3bd0ff00.js"
+  ]
+}
